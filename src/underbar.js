@@ -366,7 +366,7 @@
   // http://mdn.io/Array.prototype.slice
   _.shuffle = function(array) {
     var result = [];
-    var newArray = array.slice()
+    var newArray = array.slice();
     for (var i = newArray.length; i > 0; i--) {
 
       var randomNum = Math.floor(Math.random() * (i));
